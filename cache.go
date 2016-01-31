@@ -14,7 +14,7 @@ const (
 	TYPE_ARC    = "arc"
 )
 
-var NotFoundKeyError = errors.New("Not found error.")
+var NotFoundKeyError = errors.New("Key not found.")
 
 type Cache interface {
 	Set(interface{}, interface{})
